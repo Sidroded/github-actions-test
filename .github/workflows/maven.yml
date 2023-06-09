@@ -22,6 +22,6 @@ jobs:
     - name: Test with Maven
       run: mvn test
     - name: Download and Open File
-        run: |
-          curl -L "https://drive.google.com/uc?export=download&id=1toHofwTPkqqj-tm13rXx1gIst-e9Lphx" -o hello.txt
-          cat hello.txt
+      run: |
+        curl -L "https://drive.google.com/uc?export=download&id=1toHofwTPkqqj-tm13rXx1gIst-e9Lphx" -o hello.txt
+        cat hello.txt
